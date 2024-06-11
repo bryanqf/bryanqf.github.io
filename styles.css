@@ -1,0 +1,22 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    border: 0;
+}
+nav h1{
+    font-size: 25px;
+    text-align: left;
+}
+table{
+
+    text-align: left;
+}
+th{
+    padding: 8px;
+}
+td{
+    border: 0.1px solid rgba(128, 128, 128, 0.123) ;
+}
+button{
+    width: 100%;
+}
