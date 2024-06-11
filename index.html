@@ -1,1 +1,41 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Finanças</title>
+</head>
+<body>
+    <nav>
+        <h1>Finanças</h1>
+    </nav>
+    <form id="financeForm" onsubmit="enviar(event)">
+        <table>
+            <thead><th></th></thead>
+            <tbody>
+                <tr>
+                    <th colspan="1">Forma de Pagamento</th>
+                    <td><input type="text" id="paymentMethod" placeholder="pix, credito, debito, dinheiro"></td>
+                </tr>
+                <tr>
+                    <th colspan="1">Valor</th>
+                    <td><input type="number" id="value" placeholder="R$"></td>
+                </tr>
+                <tr>
+                    <th colspan="1">Entrada/Saída</th>
+                    <td><input type="text" id="entryExit" placeholder="E/S"></td>
+                </tr>
+                <tr>
+                    <th colspan="1">Produto</th>
+                    <td><input type="text" id="product" placeholder="Produto"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Enviar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
